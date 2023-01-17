@@ -41,20 +41,14 @@ for (let post of posts) {
       <p class="avatar-name">${post.location}</p>
     </div>
   </div>
-  <img
-    src="${post.post}"
-    class="img-post"
-    alt="${post.name}'s post"
-  />
+  <img src="${post.post}" class="img-post" alt="${post.name}'s post" />
   <div class="icon-list">
     <img src="images/icon-heart.png" class="icon" alt="like-button" />
     <img src="images/icon-comment.png" class="icon" alt="comment-btn" />
     <img src="images/icon-dm.png" class="icon" alt="dm-button" />
   </div>
   <p class="text-bold">${post.likes} likes</p>
-  <p>
-    <span class="text-bold">${post.username}</span> ${post.comment}
-  </p>
+  <p><span class="text-bold">${post.username}</span> ${post.comment}</p>
 </div>
 `
 }
