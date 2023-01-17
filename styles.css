@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: rgb(132, 109, 109);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+#logo,
+#user-avatar {
+  margin: 10px 15px;
+}
+
+#logo {
+  width: 127px;
+}
+
+.avatars {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.header-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-post {
+  width: 100%;
+}
+
+.avatar-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+}
+
+.avatar-name {
+  margin: 1px 5px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.icon {
+  height: 22px;
+  width: 23px;
+  margin-right: 20px;
+}
+
+.icon-list {
+  margin: 15px 0 12px 10px;
+}
+
+p {
+  font-size: 13px;
+  margin: 10px;
+}
